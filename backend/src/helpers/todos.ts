@@ -22,7 +22,7 @@ export async function createTodo(
       done: false,
       attachmentUrl: null,
       name: req.name,
-      dueDatre: req.dueDate
+      dueDate: req.dueDate
     }
 
     return todoAccess.createTodo(newTodo)
